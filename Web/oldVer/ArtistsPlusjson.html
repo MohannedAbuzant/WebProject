@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <title>Web project</title>
+</head class="body">
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light mb-2 ">
+    <a class="navbar-brand" href="#">Cloud<span class="X">X</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="/">Home <span class="sr-only">(curre nt)</span></a>
+        </li>
+        <li class="nav-item active rounded-pill">
+          <a class="nav-link" href="Artist.html">Artists</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pricing.html">Pricing</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <button type="button" name="Signin" class="btn btn-outline-primary mr-2" id="Login">Sign in</button>
+        <button type="button" name="Signup" class="btn btn-outline-secondary" id="SignUp">Sign up</button>
+      </ul>
+    </div>
+  </nav>
+  <div class=" ml-2 d-flex flex-row  animated bounceInLeft mt-2">
+    <div class="" id="artists">
+
+    </div>
+  </div>
+  <script type="text/javascript">
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          var response = JSON.parse(xhttp.responseText);
+          var Artists = response.Artists;
+          var output = '';
+          for(var i = 0; i < 5 ; i++){
+            if( i == 0 || i == 6 || i == 12 || i == 18){
+              // output += '<div class=" ml-2 d-flex flex-row  animated bounceInLeft mt-2">';
+            }
+            output += '<div class="card  mr-2 artist " style="width: 18rem;">';
+            output += '<img src='+Artists[i].imgPath+' class="card-img-top .img-thumbnail">';
+            output += '<div class="card-body">';
+            output += '<h2>'+Artists[i].name+'</h2>';
+            output += '</div>';
+            output += '</div>';
+            if( i == 0 || i == 6 || i == 12 || i == 18){
+              // output += '</div>';
+            }
+          }
+          document.getElementById('artists').innerHTML = output;
+        }
+    };
+    xhttp.open("GET", "Artists.json", true);
+    xhttp.send();
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+
+
+</html>

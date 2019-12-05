@@ -1,0 +1,80 @@
+{
+  "Artists":[
+    {
+      "name":"Emenim",
+      "imgPath":"/artist/Em.jpg"
+    },
+    {
+      "name":"Alan Walker",
+      "imgPath":"/artist/alan.jpg"
+    },
+    {
+      "name":"G-Eazy",
+      "imgPath":"/artist/G-eazy.jpg"
+    },
+    {
+      "name":"Ed sheeran",
+      "imgPath":"/artist/ed.jpg"
+    },
+    {
+      "name":"Dua-Lipa",
+      "imgPath":"/artist/dua-lipa.jpg"
+    },
+    {
+      "name":"Adele",
+      "imgPath":"/artist/adele.jpg"
+    },
+    {
+      "name":"Rihanna",
+      "imgPath":"/artist/rihanna.jpg"
+    },
+    {
+      "name":"Imagine Dragons",
+      "imgPath":"/artist/imagine.jpg"
+    },
+    {
+      "name":"The Weekend",
+      "imgPath":"/artist/weekend.jpg"
+    },
+    {
+      "name":"Katy Perry",
+      "imgPath":"/artist/katy.jpg"
+    },
+    {
+      "name":"Charlie Puth",
+      "imgPath":"/artist/charlie.jpg"
+    },
+    {
+      "name":"Taylor Swift",
+      "imgPath":"/artist/taylor.jpg"
+    },
+    {
+      "name":"Selena Gomez",
+      "imgPath":"/artist/selena.jpg"
+    },
+    {
+      "name":"Selena Gomez",
+      "imgPath":"/artist/selena.jpg"
+    },
+    {
+      "name":"Sia",
+      "imgPath":"/artist/sia.jpg"
+    },
+    {
+      "name":"David Guetta",
+      "imgPath":"/artist/david.jpg"
+    },
+    {
+      "name":"The Chainsmokers",
+      "imgPath":"/artist/chain.jpg"
+    },
+    {
+      "name":"Bebe Rexha",
+      "imgPath":"/artist/bebe-rexha.jpg"
+    },
+    {
+      "name":"Post Malone",
+      "imgPath":"/artist/post-malone.jpg"
+    }
+  ]
+}

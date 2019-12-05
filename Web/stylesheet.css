@@ -1,0 +1,614 @@
+body {
+margin: 0;
+padding: 0;
+background: #00F260;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+font-family: 'Roboto', sans-serif;
+}
+.mainP{
+
+background: #343434 !important;
+}
+#typed {
+font-size: 40px;
+color: white;
+}
+.active{
+background-color: #e8e6e6;
+
+}
+.X {
+color: rgba(241, 0, 0, 0.62);
+font-weight: bold;
+margin: 0;
+padding: 0;
+}
+
+.card-img-top {
+width: 100%;
+height: 15vw;
+object-fit: cover;
+}
+
+.artist:hover {
+transform: scale(0.9);
+cursor: pointer;
+}
+
+.rounded-circle {
+width: 15vw;
+height: 15vw;
+}
+
+.Artist-name {
+font-size: 90px;
+
+padding-left: 20px;
+padding-top: 50px;
+}
+
+.songs-con {
+background-color: black;
+}
+
+.songs {
+background-color: pink;
+}
+
+.con {
+height: 60px;
+object-fit: cover;
+}
+.artistbody{
+  font-family: 'Lalezar', cursive;
+}
+
+.aaa-b {
+background-size: cover;
+font-family: 'Alfa Slab One', cursive;
+min-height:100%;
+
+background: url(PinotNoir.jpg) no-repeat center center fixed;
+background-size: cover;
+}
+
+.aaa-nav {
+background-color: #003049;
+}
+
+.aaa-li:hover {
+text-decoration: none;
+color: white;
+padding-bottom: 22px;
+background: #FFA400;
+padding-top: 30px;
+}
+
+.aaa-active {
+background: #FFA400;
+padding-bottom: 22px;
+padding-top: 23px;
+}
+
+.m {
+width: 100%;
+height: 35vw;
+object-fit: cover;
+object-position: center;
+}
+.price{
+background: white !important;
+}
+.block{
+position: relative;
+height: 500px;
+background: #FF5F6D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.text{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-weight: bold;
+font-size: 30px;
+}
+.block2{
+position: relative;
+background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.banner{
+position: relative;
+background-image: url("/selena_gomez_album.jpg") !important;
+width: auto;
+height: 60vh ;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.rel{
+position: relative;
+width: auto;
+height: 60vh;
+background: -webkit-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
+background: -moz-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
+background: -ms-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
+background: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
+}
+#cont {
+position:relative;
+top: 200px;
+max-width: 100%;
+width: 60vh;
+width: auto;
+
+}
+.content {
+position: absolute;
+background: #310404;
+width:100%;
+height: 100%;
+top: 0px;
+left: 0px;
+z-index: 1000;
+}
+.container h2 {
+position: absolute;
+top: 50%;
+line-height: 100px;
+height: 100px;
+margin-top: -50px;
+font-size: 200px;
+width: 100%;
+text-align: center;
+color: transparent;
+animation: blurFadeInOut 3s ease-in backwards;
+}
+.container h2.frame-1 {
+animation-delay: 0s;
+}
+.container h2.frame-2 {
+animation-delay: 2s;
+}
+.container h2.frame-3 {
+animation-delay: 5s;
+}
+.container h2.frame-4 {
+font-size: 200px;
+animation-delay: 3s;
+}
+.container h2.frame-5 {
+animation: none;
+text-shadow: 0px 0px 1px #fff;
+}
+.container h2.frame-5 span {
+animation: blurFadeIn 3s ease-in 3s backwards;
+color: transparent;
+text-shadow: 0px 0px 1px #fff;
+}
+.container h2.frame-5 span:nth-child(2) {
+animation-delay: 2s;
+}
+.container h2.frame-5 span:nth-child(3) {
+animation-delay: 2s;
+}
+
+@keyframes blurFadeInOut{
+0%{
+opacity: 0;
+text-shadow: 0px 0px 40px #fff;
+transform: scale(0.9);
+}
+20%,75%{
+opacity: 1;
+text-shadow: 0px 0px 1px #fff;
+transform: scale(1);
+}
+100%{
+opacity: 0;
+text-shadow: 0px 0px 50px #fff;
+transform: scale(0);
+}
+}
+@keyframes blurFadeIn{
+0%{
+opacity: 0;
+text-shadow: 0px 0px 40px #fff;
+transform: scale(1.3);
+}
+50%{
+opacity: 0.5;
+text-shadow: 0px 0px 10px #fff;
+transform: scale(1.1);
+}
+100%{
+opacity: 1;
+text-shadow: 0px 0px 1px #fff;
+transform: scale(1);
+}
+}
+@keyframes fadeInBack{
+0%{
+opacity: 0;
+transform: scale(0);
+}
+50%{
+opacity: 0.4;
+transform: scale(2);
+}
+100%{
+opacity: 0.2;
+transform: scale(5);
+}
+}
+#XcolorRed{
+color: red;
+}
+.img-fluid{
+width: 100%;
+position: absolute;
+top: 541px;
+max-width: 100%;
+}
+#CloudcolorWhite{
+color: white;
+}
+/* CreditCard  */
+.pay{
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+padding-bottom: 10px;
+}
+.Credit{
+transform-style: preserve-3d;
+transition: all 0.8s ease;
+width:800px;
+height:400px;
+perspective: 1000px;
+}
+
+.inner{
+position: relative;
+width: 100%;
+height: 100%;
+text-align: center;
+transition: transform 0.6s;
+transform-style: preserve-3d;
+}
+
+.cardholder{
+font-size:19px;
+color:white;
+}
+#Name{
+font-size:29px;
+}
+.ExpireDate{
+font-size:19px;
+color:white;
+
+}
+#date{
+font-size:30px;
+
+}
+.front-face{
+left: 200px;
+transform: rotateY(0deg);
+overflow:hidden;
+}
+.chip{
+margin-left:60px;
+margin-top:50px;
+}
+
+#digit{
+font-size:40px;
+font-family:arial;
+margin-left: 70px;
+
+}
+.front-face, .back-face {
+position:absolute;
+width:100%;
+height:100%;
+backface-visibility: hidden;
+background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+border-radius:40px;
+}
+.back-face{
+right: 185px;
+transform: rotateY(180deg);
+
+
+
+overflow:hidden;
+}
+.Line{
+border: solid black 3px ;
+background-color: black;
+height: 40px;
+width: 100%;
+}
+#cvv{
+font-size: 30px;
+color: white;
+}
+#CV{
+font-size: 40px;
+
+}
+.cvvc{
+margin: 140px;
+}
+
+
+.search{
+width: 80vh !important ;
+border: none;
+}
+.playa{
+background:	#ffd6d6 !important ;
+}
+#musicpl{
+width: 100%;
+background: #fca7a7 !important;
+border-bottom-left-radius:  30px;
+}
+.side{
+position: relative;
+background: #ee4540 !important ;
+  width:10% !important;
+padding-bottom: 700px;
+border-top-right-radius: 30px;
+}
+.circle{
+border: solid black 1px;
+height: 10vh;
+width: 10vh;
+border-radius: 50px;
+
+}
+.sub{
+color: grey;
+}
+.circle > img{
+position: absolute;
+left: 15px;
+top: 24px;
+width: 10vh;
+height: 10vh;
+object-fit: cover;
+border-radius: 40px;
+
+}
+.side >ul>li>a{
+transition: all 0.5s;
+}
+.side >ul>li>a:hover{
+color: black !important;
+
+}
+
+.activem{
+color: black !important;
+}
+.Uname{
+font-size: 17px;
+left: 40px;
+}
+#live{
+animation: live 2s infinite linear ;
+
+}
+@keyframes live {
+
+50%{
+color:rgb(251, 39, 39);
+}
+100%{
+color:rgb(251, 0, 0);
+}
+}
+.exp{
+height: 15vh;
+overflow: scroll;
+overflow-x:hidden;
+overflow-y: hidden;
+}
+.exp:hover{
+overflow-y: auto;
+transition: all .5s;
+}
+.nav-btn{
+border-radius: 40px;
+}
+.album{
+width: 50px;
+height: 50px;
+}
+/* facebook
+twitter
+youtube*/
+.middle{
+ position: fixed;
+ background-color: white;
+ top: 50%;
+ transform: translateY(-50%);
+ width: 10%;
+ text-align: center;
+ border-top-right-radius:  2.5%;
+ border-bottom-right-radius: 2.5%;
+}
+#fancy{
+ display: inline-block;
+ margin-left: 0px;
+ margin-right: 5px;
+ margin-top: 5px;
+ margin-bottom: 5px;
+ width: 90px;
+ height: 90px;
+ background: #f1f1f1;
+ border-radius: 30%;
+ box-shadow: 0 5px 15px -5px #00000070;
+ color: #3498db;
+ overflow: hidden;
+ position: relative;
+}
+#fancy i{
+ line-height: 80px;
+ font-size: 26px;
+ transition: 0.2s linear;
+}
+#fancy:hover i{
+ transform: scale(1.3);
+ color: #f1f1f1;
+}
+#fancy::before{
+ content: "";
+ position: absolute;
+ width: 120%;
+ height: 120%;
+ background: #3498db;
+ transform: rotate(45deg);
+ left: -110%;
+ top: 90%;
+}
+#fancy:hover::before{
+ animation: aaa 0.7s 1;
+ top: -10%;
+ left: -10%;
+}
+@keyframes aaa {
+ 0%{
+   left: -110%;
+   top: 90%;
+ }50%{
+   left: 10%;
+   top: -30%;
+ }100%{
+   top: -10%;
+   left: -10%;
+ }
+}
+#list{
+list-style:none;
+margin-left: 0px;
+padding-left: 0px;
+}
+#play{
+transition: all 0.5s;
+
+}
+#play:hover{
+transform: scale(1.5);
+}
+.ctrl-btn{
+margin-left:  600px;
+}
+.song-info{
+color: white;
+margin: 0px ;
+padding: 0px;
+font-size: 12px;
+}
+#player{
+border-radius: 30px;
+background: #18587a !important;
+}
+.share-button{
+width: 260px;
+height: 60px;
+background: rgb(0, 203, 255);
+border-radius: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+position: relative;
+cursor: pointer;
+transition: .3s linear;
+}
+
+.share-button:hover{
+transform: scale(1.1);
+}
+
+.share-button span{
+position: absolute;
+width: 100%;
+height: 100%;
+background: #2d3436;
+color: #f1f1f1;
+text-align: center;
+line-height: 60px;
+z-index: 999;
+transition: .6s linear;
+border-radius: 40px;
+}
+
+.share-button:hover span{
+transform: translateX(-100%);
+transition-delay: .3s;
+}
+
+.share-button a{
+flex: 1;
+font-size: 26px;
+color: #2d3436;
+text-align: center;
+transform: translateX(-100%);
+opacity: 0;
+transition: 0.3s linear;
+}
+
+.share-button:hover a{
+opacity: 1;
+transform: translateX(0);
+}
+
+.share-button a:nth-of-type(1){
+transition-delay: 1s;
+}
+
+.share-button a:nth-of-type(2){
+transition-delay: 0.8s;
+}
+
+.share-button a:nth-of-type(3){
+transition-delay: 0.6s;
+}
+
+.share-button a:nth-of-type(4){
+transition-delay: 0.4s;
+}
+.playbt{
+visibility:hidden;
+}
+.card-body:hover > .playbt{
+visibility: visible;
+}
+
+::-webkit-scrollbar {
+width: 4px;
+}
+
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+background-color: darkgrey;
+outline: 1px solid slategrey;
+}
+.middle{
+background-color: rgba(221, 110, 0, 0);
+}
+.pleaseeee{
+  font-size: 20px !important;
+}

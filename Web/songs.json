@@ -1,0 +1,187 @@
+[
+  {
+    "name":"Instruction",
+     "ArtistName":"Jax Jones ft.Demi Lovato ,Stefflon Don",
+     "Album":"Snacks - EP",
+     "songloc":"/music/jax.mp3",
+     "songpic":"covers/instruction.jpg"
+  },
+
+  {
+    "name":"Lose You To Love Me",
+     "ArtistName":"Selena Gomez",
+     "Album":"SG2",
+     "songloc":"/music/selena-gomez-lose-you-to-love-me-official-music-video.mp3",
+     "songpic":"covers/Loseyou.jpg"
+  },
+  {
+    "name":"ME!",
+     "ArtistName":"Taylor Swift feat. Brendon Urie of Panic! At The Disco",
+     "Album":"Lover",
+     "songloc":"/music/ME!.mp3",
+     "songpic":"covers/me.png"
+  },
+  {
+    "name":"Memories",
+     "ArtistName":"Maroon5",
+     "Album":"M7*",
+     "songloc":"/music/memories.mp3",
+     "songpic":"covers/memories.webp"
+  },
+  {
+    "name":" Wrecking Ball ",
+     "ArtistName":"Miley Cyrus",
+     "Album":"Bangerz",
+     "songloc":"/music/miley-cyrus-wrecking-ball-official-video.mp3",
+     "songpic":"covers/WR.jpg"
+  },
+  {
+    "name":"Look At Her Now",
+     "ArtistName":"Selena Gomez",
+     "Album":"SG2",
+     "songloc":"/music/selena-gomez-look-at-her-now-official-music-video.mp3",
+     "songpic":"covers/Selena_Gomez_-_Look_at_Her_Now.png"
+  },
+  {
+    "name":"Old Town Road ",
+     "ArtistName":"Lil Nas X feat. Billy Ray Cyrus (Remix)",
+     "Album":"7",
+     "songloc":"/music/lil-nas-x-old-town-road-feat-billy-ray-cyrus-remix.mp3",
+     "songpic":"covers/old-town-road-remix-cover.jpg"
+  },
+  {
+    "name":"Don’t Start Now",
+     "ArtistName":"Dua Lipa",
+     "Album":"Future Nostalgia",
+     "songloc":"/music/dua-lipa-dont-start-now-lyrics.mp3",
+     "songpic":"covers/Dua_Lipa_-_Don't_Start_Now.png"
+  },
+  {
+    "name":"Señorita ",
+     "ArtistName":"Shawn Mendes & Camila Cabello",
+     "Album":"Shawn Mendes (Deluxe)",
+     "songloc":"/music/shawn-mendes-camila-cabello-senorita-lyrics.mp3",
+     "songpic":"covers/Shawn_Mendes_and_Camila_Cabello_-_Señorita.png"
+  },
+  {
+    "name":"Lover",
+     "ArtistName":"Taylor Swift",
+     "Album":"Lover",
+     "songloc":"/music/taylor-swift-lover-lyric-video.mp3",
+     "songpic":"/covers/Taylor_Swift_-_Lover.png"
+  },
+  {
+    "name":"Call You Mine",
+     "ArtistName":"The Chainsmokers ft. Bebe Rexha",
+     "Album":"World War Joy",
+     "songloc":"/music/the-chainsmokers-call-you-mine-official-video-ft-bebe-rexha.mp3",
+     "songpic":"/covers/The_Chainsmokers_-_Call_You_Mine.png"
+  },
+  {
+    "name":"Something Just Like This",
+    "ArtistName":"The Chainsmokers & Coldplay ",
+     "Album":"Memories...Do Not Open",
+     "songloc":"/music/the-chainsmokers-coldplay-something-just-like-this-lyric.mp3",
+     "songpic":"/covers/sjlt.jpg"
+  },
+  {
+    "name":"No Lie",
+     "ArtistName":"Sean Paul feat.Dua Lipa",
+     "Album":"Mad Love: The Prequel",
+     "songloc":"",
+     "songpic":""
+  },
+  {
+    "name":"",
+     "ArtistName":"",
+     "Album":"",
+     "songloc":"",
+     "songpic":""
+  },
+  {
+    "name":"",
+     "ArtistName":"",
+     "Album":"",
+     "songloc":"",
+     "songpic":""
+  },
+  {
+    "name":"",
+     "ArtistName":"",
+     "Album":"",
+     "songloc":"",
+     "songpic":""
+  },
+  {
+    "name":"",
+     "ArtistName":"",
+     "Album":"",
+     "songloc":"",
+     "songpic":""
+  },
+  {
+    "name":"",
+     "ArtistName":"",
+     "Album":"",
+     "songloc":"",
+     "songpic":""
+  },
+  {
+    "name":"",
+     "ArtistName":"",
+     "Album":"",
+     "songloc":"",
+     "songpic":""
+  },
+  {
+    "name":"",
+     "ArtistName":"",
+     "Album":"",
+     "songloc":"",
+     "songpic":""
+  },
+  {
+    "name":"",
+     "ArtistName":"",
+     "Album":"",
+     "songloc":"",
+     "songpic":""
+  },
+  {
+    "name":"",
+     "ArtistName":"",
+     "Album":"",
+     "songloc":"",
+     "songpic":""
+  },
+  {
+    "name":"",
+     "ArtistName":"",
+     "Album":"",
+     "songloc":"",
+     "songpic":""
+  },
+  {
+    "name":"",
+     "ArtistName":"",
+     "Album":"",
+     "songloc":"",
+     "songpic":""
+  },
+  {
+    "name":"",
+     "ArtistName":"",
+     "Album":"",
+     "songloc":"",
+     "songpic":""
+  },
+  {
+    "name":"",
+     "ArtistName":"",
+     "Album":"",
+     "songloc":"",
+     "songpic":""
+  }
+
+
+]

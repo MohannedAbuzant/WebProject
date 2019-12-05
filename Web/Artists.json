@@ -1,0 +1,722 @@
+{
+  "Artists":[
+    {
+      "name":"Emenim",
+      "firstname":"Emenim",
+      "lastname":"",
+      "imgPath":"/artist/Em.jpg",
+      "Albums":[
+        {
+          "name":"Kamikaze",
+          "Location":"albumimg/kamkazi.jpg",
+          "Albumsong":[
+            {
+              "song":"Kamikaze",
+              "songloc":"/music/Kamikaze[OfficialAudio].mp3"
+            },
+            {
+              "song":"Venom",
+              "songloc":"/music/Eminem-Venom.mp3"
+            },
+            {
+              "song":"Lucky you",
+              "songloc":"/music/Eminem-LuckyYouft.JoynerLucas.mp3"
+            },
+            {
+              "song":"Fall",
+              "songloc":"/music/Fall[OfficialAudio].mp3"
+            },
+            {
+              "song":"The ringer",
+              "songloc":"/music/Eminem-TheRinger(OfficialAudio).mp3"
+            },
+            {
+              "song":"Greatest",
+              "songloc":"/music/Eminem-Greatest(Lyrics).mp3"
+            },
+            {
+              "song":"Not alike",
+              "songloc":"/music/EminemNotAlike(ft.Roy(Lyrics).mp3"
+            },
+            {
+              "song":"Good guy",
+              "songloc":"/music/EminemGooduyft.JessieReyez.mp3"
+            }
+          ]
+        },
+        {
+          "name":"Encore",
+          "Location":"albumimg/Encore.jpg",
+          "Albumsong":[
+            {
+              "song":"Ass like that",
+              "songloc":"/music/EminemALikeThat.mp3"
+            },
+            {
+              "song":"Mockingbird",
+              "songloc":"/music/EminemMockingbird.mp3"
+            },
+            {
+              "song":"Just lose it",
+              "songloc":"/music/Eminem.mp3"
+            }
+          ]
+        },
+        {
+          "name":"The Marshall Mathers LP 2",
+          "Location":"albumimg/marshal.jpg",
+          "Albumsong":[
+            {
+              "song":"The monster"
+            },
+            {
+              "song":"Rap god"
+            },
+            {
+              "song":"Berzerk"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name":"Imagine Dragons",
+      "firstname":"Imagine",
+      "lastname":"Dragons",
+      "imgPath":"/artist/imagine.jpg",
+      "Albums":[
+        {
+          "name":"Origin",
+          "Location":"albumimg/Origins.jpg",
+          "Albumsong":[
+            {
+              "song":"natural"
+            },
+            {
+              "song":"machine"
+            },
+            {
+              "song":"bad liar"
+            },
+            {
+              "song":"zero"
+            },
+            {
+              "song":"birds"
+            },
+            {
+              "song":"cool out"
+            }
+          ]
+        },
+        {
+          "name":"Night Visions",
+          "Location":"albumimg/Imagine-Dragons-Night-Visions-album.jpg",
+          "Albumsong":[
+            {
+              "song":"on top of the worlds"
+            },
+            {
+              "song":"demons"
+            },
+            {
+              "song":"radioactive"
+            },
+            {
+              "song":"every night"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name":"G-Eazy",
+      "firstname":"G-Eazy",
+      "lastname":"",
+      "imgPath":"/artist/G-eazy.jpg"
+    },
+    {
+      "name":"Ed sheeran",
+      "firstname":"Ed",
+      "lastname":"sheeran",
+      "imgPath":"/artist/ed1.jpg",
+      "Albums":[
+        {
+          "name":"Plus",
+          "Location":"albumimg/plus.png",
+          "Albumsong":[
+            {
+              "song":"The A Team"
+            },
+            {
+              "song":"Give Me Love"
+            },
+            {
+              "song":"Kiss Me"
+            },
+            {
+              "song":"Lego House"
+            }
+          ]
+        },
+        {
+          "name":"No.6 Collaborations Project",
+          "Location":"albumimg/edshern-No6CollaborationsProject.png",
+          "Albumsong":[
+            {
+              "song":"Beautiful People"
+            },
+            {
+              "song":"I Don't Care"
+            },
+            {
+              "song":"Remember The Name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name":"Dua Lipa",
+      "firstname":"Dua",
+      "lastname":"Lipa",
+      "imgPath":"/artist/dua-lipa.jpg",
+      "Albums":[
+        {
+          "name":"Singalong",
+          "Location":"albumimg/singalong.png",
+          "Albumsong":[
+            {
+              "song":"Respect"
+            },
+            {
+              "song":"New Rules"
+            },
+            {
+              "song":"Good Times"
+            },
+            {
+              "song":"Take on Me"
+            }
+          ]
+        },
+        {
+          "name":"Dua Lipa",
+          "Location":"albumimg/dualipa.jpg",
+          "Albumsong":[
+            {
+              "song":"IDGAF"
+            },
+            {
+              "song":"Dreams"
+            },
+            {
+              "song":"Be the one"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name":"Adele",
+      "firstname":"Adele",
+      "lastname":"",
+      "imgPath":"/artist/adele.jpg",
+      "Albums":[
+        {
+          "name":"25",
+          "Location":"albumimg/25.jpg",
+          "Albumsong":[
+            {
+              "song":"Hello"
+            },
+            {
+              "song":"Send My Love"
+            },
+            {
+              "song":"I Miss You"
+            },
+            {
+              "song":"When We Were Young"
+            },
+            {
+              "song":"Remedy"
+            },
+            {
+              "song":"Water Under the Bridge"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name":"Rihanna",
+      "firstname":"Rihanna",
+      "lastname":"",
+      "imgPath":"/artist/rihanna.jpg",
+      "Albums":[
+        {
+          "name":"ANTI",
+          "Location":"albumimg/ANTI.jpg",
+          "Albumsong":[
+            {
+              "song":"Work"
+            },
+            {
+              "song":"Higher"
+            },
+            {
+              "song":"Woo"
+            },
+            {
+              "song":"Never Ending"
+            }
+          ]
+        },
+        {
+          "name":"Loud",
+          "Location":"albumimg/loud.jpg",
+          "Albumsong":[
+            {
+              "song":"S&M"
+            },
+            {
+              "song":"What's My Name?"
+            },
+            {
+              "song":"Fading"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name":"Alan Walker",
+      "firstname":"Alan",
+      "lastname":"Walker",
+      "imgPath":"/artist/alan.jpg"
+    },
+    {
+      "name":"The Weekend",
+      "firstname":"The",
+      "lastname":"Weekend",
+      "imgPath":"/artist/week.jpg"
+    },
+    {
+      "name":"Katy Perry",
+      "firstname":"Katy",
+      "lastname":"Perry",
+      "imgPath":"/artist/katy.jpg",
+      "Albums":[
+        {
+          "name":"Witness",
+          "Location":"albumimg/Witness.png",
+          "Albumsong":[
+            {
+              "song":"Swish Swish"
+            },
+            {
+              "song":"Chained to The Rhythm"
+            },
+            {
+              "song":"Tsunami"
+            },
+            {
+              "song":"Déjà Vu"
+            },
+            {
+              "song":"Roulette"
+            },
+            {
+              "song":"Power"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name":"Charlie Puth",
+      "firstname":"Charlie",
+      "lastname":"Puth",
+      "imgPath":"/artist/charlie.jpg"
+    },
+    {
+      "name":"Taylor Swift",
+      "firstname":"Taylor",
+      "lastname":"Swift",
+      "imgPath":"/artist/taylor.jpg",
+      "Albums":[
+        {
+          "name":"1989",
+          "Location":"albumimg/1989.jpg",
+          "Albumsong":[
+            {
+              "song":"Blank Space"
+            },
+            {
+              "song":"Style"
+            },
+            {
+              "song":"out of the woods"
+            },
+            {
+              "song":"Shake it off"
+            },
+            {
+              "song":"Bad Blood"
+            },
+            {
+              "song":"Wildest Dreams"
+            }
+          ]
+        },
+        {
+          "name":"Red",
+          "Location":"albumimg/TaylorSwift_Red.jpg",
+          "Albumsong":[
+            {
+              "song":"I Knew You Were Trouble"
+            },
+            {
+              "song":"22"
+            },
+            {
+              "song":"We Are Never Ever Getting Back Together"
+            },
+            {
+              "song":"Red"
+            }
+          ]
+        },
+        {
+          "name":"Reputation",
+          "Location":"albumimg/Reputation.jpg",
+          "Albumsong":[
+              {
+                "song":"Ready For it?"
+              },
+              {
+                "song":"End Game"
+              },
+              {
+                "song":"Delicate"
+              },
+              {
+                "song":"Look What You Made Me Do"
+              }
+            ]
+          }
+      ]
+    },
+    {
+      "name":"Selena Gomez",
+      "firstname":"Selena",
+      "lastname":"Gomez",
+      "imgPath":"/artist/selen.jpg",
+      "Albums":[
+        {
+          "name":"SG2",
+          "Location":"albumimg/SG2.jpg",
+          "Albumsong":[
+            {
+              "song":"Look at Her Now",
+              "songloc":"/music/selena-gomez-look-at-her-now-official-music-video.mp3"
+            },
+            {
+              "song":"Lose You to Love me",
+              "songloc":"/music/selena-gomez-lose-you-to-love-me-official-music-video.mp3"
+            }
+          ]
+        },
+        {
+          "name":"Revival",
+          "Location":"albumimg/Revival.png",
+          "Albumsong":[
+            {
+              "song":"Kill em with kindness"
+            },
+            {
+              "song":"Hands to Myself"
+            },
+            {
+              "song":"Same Old Love"
+            },
+            {
+              "song":"Good for you"
+            },
+            {
+              "song":"Same Old Love"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name":"Sia",
+      "firstname":"Sia",
+      "lastname":"",
+      "imgPath":"/artist/sia.jpg",
+      "Albums":[
+        {
+          "name":"this is acting",
+          "Location":"albumimg/this-is-acting.jpg",
+          "Albumsong":[
+            {
+              "song":"Cheap Thrills"
+            },
+            {
+              "song":"Bird Set Free"
+            },
+            {
+              "song":"Alive"
+            },
+            {
+              "song":"Move Your Body"
+            },
+            {
+              "song":"One Million Bullets"
+            },
+            {
+              "song":"Unstoppable"
+            }
+          ]
+        },
+        {
+          "name":"1000 Forms of Fear",
+          "Location":"albumimg/1000FormsofFear.jpg",
+          "Albumsong":[
+            {
+              "song":"Chandelier"
+            },
+            {
+              "song":"Big Girls Cry"
+            },
+            {
+              "song":"Burn the Pages"
+            },
+            {
+              "song":"Hostage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name":"David Guetta",
+      "firstname":"David",
+      "lastname":"Guetta",
+      "imgPath":"/artist/david.jpg"
+    },
+    {
+      "name":"Zara Larsson",
+      "firstname":"Zara",
+      "lastname":"Larsson",
+      "imgPath":"/artist/za.jpg",
+      "Albums":[
+        {
+          "name":"So Good",
+          "Location":"albumimg/SoGood.png",
+          "Albumsong":[
+            {
+              "song":"Ain't My Fault"
+            },
+            {
+              "song":"Symphony"
+            },
+            {
+              "song":"So Good"
+            },
+            {
+              "song":"Only You"
+            }
+          ]
+        },
+        {
+          "name":"Allow Me to Reintroduce Myself",
+          "Location":"albumimg/AllowMetoReintroduceMyself.jpg",
+          "Albumsong":[
+            {
+              "song":"Love Again"
+            },
+            {
+              "song":"Darkside"
+            },
+            {
+              "song":"She's Not Me"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name":"Bebe Rexha",
+      "firstname":"Bebe",
+      "lastname":"Rexha",
+      "imgPath":"/artist/bebe-rexha-1.jpg",
+      "Albums":[
+        {
+          "name":"Expectations",
+          "Location":"albumimg/Expectations.jpg",
+          "Albumsong":[
+            {
+              "song":"Ferrari"
+            },
+            {
+              "song":"I’m a Mess"
+            },
+            {
+              "song":"2 Souls on Fire"
+            },
+            {
+              "song":"Shining Star"
+            }
+          ]
+        },
+        {
+          "name":"All Your Fault: Pt. 1 - EP",
+          "Location":"albumimg/AllYourFault.jpg",
+          "Albumsong":[
+            {
+              "song":"I Got You"
+            },
+            {
+              "song":"F.F.F"
+            },
+            {
+              "song":"Atmosphere"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name":"Post Malone",
+      "firstname":"Post",
+      "lastname":"Malone",
+      "imgPath":"/artist/post.jpg",
+      "Albums":[
+        {
+          "name":"beerbongs & bentleys",
+          "Location":"albumimg/beerbongs&bentleys.jpg",
+          "Albumsong":[
+            {
+              "song":"Paranoid"
+            },
+            {
+              "song":"Spoil My Night"
+            },
+            {
+              "song":"rockstar"
+            },
+            {
+              "song":"Psycho"
+            }
+          ]
+        },
+        {
+          "name":"Stoney",
+          "Location":"albumimg/Stoney.jpg",
+          "Albumsong":[
+            {
+              "song":"Broken Whiskey Glass"
+            },
+            {
+              "song":"Big Lie"
+            },
+            {
+              "song":"Deja Vu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name":"Marshmello",
+      "firstname":"Marshmello",
+      "lastname":"",
+      "imgPath":"/artist/marsh1.jpg"
+    },
+    {
+      "name":"Lana Del Rey",
+      "firstname":"Lana",
+      "lastname":"Del Rey",
+      "imgPath":"/artist/lana.jpg",
+      "Albums":[
+        {
+          "name":"Born to Die",
+          "Location":"albumimg/born-to-die.png",
+          "Albumsong":[
+            {
+              "song":"Born to Die"
+            },
+            {
+              "song":"Dark Paradise"
+            },
+            {
+              "song":"Summertime Sadness"
+            },
+            {
+              "song":"Radio"
+            }
+          ]
+        },
+        {
+          "name":"Honeymoon",
+          "Location":"albumimg/Honeymoon.jpg",
+          "Albumsong":[
+            {
+              "song":"Honeymoon"
+            },
+            {
+              "song":"Freak"
+            },
+            {
+              "song":"Art Disco"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name":"Billie Eilish",
+      "firstname":"Billie",
+      "lastname":"Eilish",
+      "imgPath":"/artist/eilish.jpeg",
+      "Albums":[
+        {
+          "name":"Don't Smile at Me",
+          "Location":"albumimg/Billie_Eilish_-_Don't_Smile_at_Me.png",
+          "Albumsong":[
+            {
+              "song":"Lovely"
+            },
+            {
+              "song":"Hostage"
+            },
+            {
+              "song":"watch"
+            },
+            {
+              "song":"My Boy"
+            }
+          ]
+        },
+        {
+          "name":"When We All Fall Asleep, Where Do We Go?",
+          "Location":"albumimg/when-we-all-fall-asleep-new-album-release-stream-billie.jpg",
+          "Albumsong":[
+            {
+              "song":"Bad Guy"
+            },
+            {
+              "song":"Bury a Friend"
+            },
+            {
+              "song":"When The Party's over"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

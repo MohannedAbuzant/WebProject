@@ -1,0 +1,92 @@
+body{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+}
+input{
+  margin: 20px;
+  padding: 10px;
+}
+
+.box1{
+  padding-right: 200px;
+  padding-bottom:200px;
+  padding-top:50px;
+  background-color: #fff;
+  position: fixed;
+  border-radius: 5%;
+  top: 200px;
+
+}
+.l{
+  margin-left: 100px;
+}
+
+#back{
+  background-image: url("http://localhost/pic.gif");
+  background-size: cover;
+}
+
+.d-flex{
+  height: 100vh;
+  align-items: center;
+}
+.NewAcc{
+  /* background-color: rgba(94, 107, 121, 1); */
+  background-image: url(img/bg1.jpg);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.floating-box{
+   background-color: rgba(27,29,34,0.6);
+   color: white;
+}
+form > div{
+  position: relative;
+}
+ .go-up label{
+    position: absolute;
+    top: 40px;
+    left: 80px;
+    bottom: 0;
+    pointer-events: none;
+    color:#999;
+    transition: all 0.5s ease-in-out;
+}
+ .go-up input:focus + label,
+ .go-up input:valid + label {
+   top: 5px;
+   left:14px;
+  color:blue;
+  font-size:14px;
+}
+.go-up .pass {
+  position: absolute;
+  top: 30px !important;
+}
+.go-up input:focus + .pass,
+.go-up input:valid + .pass{
+  top: -5px !important ;
+  left:16px !important;
+ color:blue;
+ font-size:14px;
+}
+.char{
+  margin-left: 60px;
+}
+.sym{
+  margin-left: 70px;
+}
+@keyframes myframe{
+  0%{
+    tranform: scale(1);
+  }
+  50%{
+    transform:scale(2);
+  }
+  100%{
+    transform:scale(1);
+  }
+}

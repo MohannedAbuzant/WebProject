@@ -1,0 +1,91 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <title>Pricing!</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body class="pay">
+  <div class="d-flex flex-column justify-content-center">
+    <div class="container ">
+      <div class="Credit mt-4 ">
+        <div class="inner d-flex justify-content-center">
+
+
+          <div class="front-face ">
+            <div class="d-flex justify-content-end mr-3">
+              <img id="logo">
+
+            </div>
+
+            <div class="d-flex">
+              <img class="chip" src="https://img.icons8.com/ultraviolet/80/000000/sim-card-chip.png" alt="chip">
+            </div>
+            <div class="d-flex">
+              <pre id="digit">####  ####  ####  ####</pre>
+            </div>
+            <div class="d-inline-flex flex-column float-left ml-4">
+              <p class="cardholder">Card holder:</p>
+              <p id="Name">Joe Doe</p>
+
+            </div>
+            <div class="d-inline-flex flex-column float-right mr-4 mb-3">
+              <p class="ExpireDate float-right">Expire Date:</p>
+              <p id="date">25/20</p>
+            </div>
+          </div>
+          <div class="back-face">
+
+            <div class="d-flex justify-content-center">
+              <p class="Line"></p>
+            </div>
+            <div class="d-flex flex-column float-right cvvc">
+              <p id="cvv">CVV:</p>
+              <p id="CV">###</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="in ">
+        <form class="p" action="index.html" method="post">
+          <div class="form-group pt-1">
+            <label for="CardNumber" class="">Card Number</label>
+            <input type="text" name="CardNumber " id="cardNum" class="form-control form-control-lg w-100 " >
+          </div>
+          <div class="form-group mt-2 ">
+            <label for="cardholder" class="mr-4">Holder Name</label>
+            <input type="text" name="cardholder" id="cardholder" class="form-control form-control-lg  ">
+          </div>
+          <div class="form-group mt-2">
+            <label for="Date">Expire Date:</label>
+            <input type="input" name="Date" id="dat" class="form-control form-control-lg Da">
+          </div>
+          <div class="form-group mt-2">
+            <label for="cvv">CVV</label>
+            <input type="input" name="cvv" maxlength="3" id="cvi" class="form-control form-control-lg ">
+          </div>
+          <div class="d-flex justify-content-center">
+            <button type="button" name="button" class="btn btn-primary text-center"><img src="https://img.icons8.com/material/24/000000/lock--v1.png">  Secure payment</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <script src="cleave.min.js"></script>
+</body>
+
+</html>
